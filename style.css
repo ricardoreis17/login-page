@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+body {
+    background: #021420;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    color: white;
+    
+}
+
+.container {
+    width: 350px;
+    height: 500px;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: #021420;
+    box-shadow: 10px 10px 18px #041b29, -5px -5px 18px #093d5e;
+}
+
+.brand-logo {
+    height: 100px;
+    width: 100px;
+    background: url('perfil-lobo.jpg') center;
+    margin: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px #020d14, -7px -7px 10px #092c42;
+}
+
+
+
+.title {
+    color: #0badc0;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.fildes {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.fildes input {
+    background: #ecf0f3;
+    padding: 15px;
+    padding-left: 20px;
+    margin: 6px;
+    height: 20px;
+    font-size: 14px;
+    border-radius: 50px;
+
+    box-shadow: inset 6px 6px 6px #041b29, inset -6px -6px 6px rgb(255, 255, 255);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button input{
+    margin-top: 20px;
+    background: #4595c7;
+    height: 40px;
+    width: 150px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.button input:hover {
+    background: none;
+    color: #4595c7;
+}
+
